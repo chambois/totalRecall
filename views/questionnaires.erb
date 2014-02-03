@@ -1,0 +1,7 @@
+
+<ul>
+	<% @questionnaires.each do |q| %>
+		<li><a href="/questionnaire/<%= q.id %>"><%= q.title %></a></li>
+  <% end %>
+</ul>
+
